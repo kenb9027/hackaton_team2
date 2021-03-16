@@ -1,20 +1,155 @@
-#top-img-box{
+#top-img-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  z-index: -1;
+  height: 582px;
+  width: 100%;
+  background: url(../img/pic-web-dev.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#filter-box {
+  height: 582px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+#title-img-box {
+  position: relative;
+  top: 60%;
+  left: 15%;
+  width: 45%;
+  margin: 0;
+  font-family: var(--font-lato);
+  color: var(--color-white);
+  font-weight: bold;
+  font-size: 50px;
+}
+#presentation-box{
+    position: relative;
+    margin-top: 590px;
+    padding: 0 15%;
+    margin-bottom: 90px;
+
+}
+#presentation-title{
+    font-family: var(--font-lato);
+    color: var(--color-black);
+    margin-left: 5px;
+    margin-bottom: 40px;
+    font-size: 25px;
+}
+
+.presentation-text{
+    font-family: var(--font-lato);
+    color: var(--color-grey);
+    font-size: 16px;
+}
+#pres-title-under {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 18px;
+    left: 15%;
+    background-color: var(--color-green);
+    opacity: 0.5;
+    width: 219px;
+    height: 15px;
+  }
 
-    z-index: -1;
-    height: 582px;
-    width: 100%;
-    background: url(../img/pic-chef-de-projet.jpg) center ;
+  #slide-box {
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+  }
+  #slide-title{
+    font-family: var(--font-lato);
+    color: var(--color-black);
+    text-align: center;
+    font-size: 20px;
+  }
+  #slide-title-under-1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: var(--color-green);
+    opacity: 0.5;
+    width: 328px;
+    height: 10px;
+    transform: translate(-50%);
+  }
+@media screen and (max-width: 768px) {
+  #top-img-box {
+    height: 350px;
+  }
+  #filter-box {
+    height: 350px;
+  }
+  #title-img-box {
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  #presentation-box {
+
+    margin-top: 380px;
+
+  }
+  #presentation-title {
+
+    font-size: 20px;
+
+  }
+  #pres-title-under {
+    position: absolute;
+    top: 12px;
+    left: 15%;
+    background-color: var(--color-green);
+    opacity: 0.5;
+    width: 177px;
+ 
+    height: 15px;
+  }
+  .presentation-text {
+    font-size: 14px;
+  }
+
+  #slide-title {
+    font-size: 14px;
+    margin: 40px 25%;
+    line-height: 1.5em;
+  }
+  #slide-title-under-1 {
+    position: absolute;
+    top: 50%;
+    left: 24%;
+    background-color: var(--color-green);
+    opacity: 0.5;
+    width: 53%;
+    height: 10px;
+    transform: translate(0);
+
+  }
+
+
+}
+@media screen and (max-width: 617px){
+    #slide-title-under-1 {
+        position: absolute;
+        top: 25%;
+        left: 24%;
+        background-color: var(--color-green);
+        opacity: 0.5;
+        width: 53%;
+        height: 10px;
+      }
+      #slide-title-under-2 {
+    position: absolute;
+    top: 75%;
+    left: 33%;
+    background-color: var(--color-green);
+    opacity: 0.5;
+    width: 35%;
+    height: 10px;
+  }
 }
 
-@media screen and ( max-width: 768px){
-
-    #top-img-box{
-
-        height: 350px;
-    }
-
-
-}
