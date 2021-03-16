@@ -1,0 +1,20 @@
+#top-img-box{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    z-index: -1;
+    height: 582px;
+    width: 100%;
+    background: url(../img/pic-chef-de-projet.jpg) center ;
+}
+
+@media screen and ( max-width: 768px){
+
+    #top-img-box{
+
+        height: 350px;
+    }
+
+
+}

@@ -1,5 +1,10 @@
+body{
+  
+}
 #header-menu {
-  position: relative;
+  position: sticky;
+
+
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -7,16 +12,17 @@
   background-color: var(--color-green);
   color: var(--color-white);
 
-  height: 182px;
+  height: 122px;
 }
 #logo-box {
   
-  background-color: var(--color-white);
+  background-color: var(--color-green);
   z-index: 1;
+  width: 172px;
 }
 #header-logo-desktop {
-  background-color: var(--color-white);
-  max-width: 260px;
+  background-color: var(--color-green);
+  max-width: 100%;
 
   transition: 0.4s;
 }
@@ -57,6 +63,7 @@
 .dropdown-content {
   display: none;
   position: absolute;
+  top:110%;
   background-color: var(--color-white);
   min-width: 80px;
   box-shadow: 0px 4px 8px 0px var(--color-dark-blue);
@@ -89,12 +96,14 @@
   transition :0.3s;
 }
 .nav-link:hover {
-  color: var(--color-dark-blue);
-  text-shadow: 1px 1px 0px var(--color-blue);
+  color: var(--color-blue);
 }
 @media screen and ( max-width: 950px){
+  #logo-box{
+    width: 172px;
+  }
   #header-logo-desktop{
-    max-width: 200px;
+    max-width: 100%;
   }
   #menu{
     width: 85%;
@@ -104,19 +113,19 @@
   }
 }
 @media screen and (max-width: 768px) {
-  #header {
+  #header-menu {
     justify-content: flex-start;
+    height: 50px;
   }
   #logo-box {
     margin: 0;
-    position: absolute;
-    left: 150px;
+    
   }
   #header-logo-desktop {
     max-width: 0px;
   }
   #header-logo-mobile {
-    max-width: 200px;
+    max-width: 80px;
   }
   .burger-container {
     display: inline-block;
@@ -156,13 +165,16 @@
 
   #menu {
     position: absolute;
-    top: -200%;
+    top: -1000%;
     transition: 0.4s;
   }
   #menu.menu-mobile {
     top: 100%;
     transition: 0.4s;
     width: 100%;
+  }
+  .dropdown-content{
+    top:150%;
   }
   #menu-list {
     
