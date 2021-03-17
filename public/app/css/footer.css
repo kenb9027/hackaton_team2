@@ -1,0 +1,144 @@
+
+ul {
+    list-style-type: none;
+}
+
+/*****************************************************************
+**************************  FOOTER  ****************************
+******************************************************************/
+
+.footer-container {
+    height: 250px;
+    background: #004F73;
+}
+
+.grid-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    height: 250px;
+    position: relative;
+}
+
+.grid-footer a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.grid-foot-1 {
+    text-align: center;
+}
+.grid-foot-1 img {
+    height: 126px;
+    width: 262px;
+}
+.grid-foot-1 p {
+    color: #FFFFFF;
+    font-family: "lato";
+    font-size: 14px;
+}
+
+
+.grid-foot-2 {
+    height: 250px;
+}
+.grid-foot-2 ul {
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 13%;
+}
+.grid-foot-2 img {
+    height: 50px;
+    transition: .2s;
+}
+
+.grid-foot-2 img:hover {
+    transform: scale(1.1);
+}
+
+.grid-foot-2 li {
+    padding: 20px;
+}
+
+#res-img {
+    display: none;
+}
+
+.grid-foot-3 {
+    height: 250px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-family: "lato";
+    font-size: 14px;
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+.grid-foot-3 ul{
+    display: flex;
+    padding: 0;
+    padding-bottom: 37px;
+}
+.grid-foot-3 li {
+    padding: 0 10px;
+}
+
+
+
+/*****************************************************************
+**************************  RESPONSIVE  ****************************
+******************************************************************/
+@media screen and (max-width: 1070px) {
+
+    .grid-footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .grid-foot-1 img {
+        display: none;
+    }
+
+    .grid-foot-1 p {
+        display: none;
+    }
+
+    #res-img {
+        display: block;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    #res-img img {
+        height: 56px;
+        width: 117px;
+    }
+    #res-img p {
+        color: #FFFFFF;
+        font-family: "lato";
+        font-size: 12px;
+    }
+
+    .grid-foot-2 img {
+        height: 35px;
+    }
+
+    .grid-foot-3 ul {
+        padding-bottom: 0;
+    }
+
+    .grid-foot-2 ul {
+        margin: 0;
+        margin-top: 20px;
+    }
+
+    .grid-foot-2 li {
+        padding: 10px;
+    }
+    .grid-foot-3 {
+        padding-bottom: 10px;
+        font-size: 12px;
+    }
+}
