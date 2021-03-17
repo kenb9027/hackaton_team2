@@ -1,4 +1,3 @@
-
 const menu = document.getElementById('menu');
 const menuList = document.getElementById('menu-list');
 const dropDowns = document.querySelectorAll('.dropdown');
@@ -10,7 +9,6 @@ function moveBurger(x) {
     menuList.classList.toggle('menu-list-mobile');
 
   };
-
 dropDowns.forEach((dd) => {
   const ddc = dd.querySelector(".dropdown-content");
 
