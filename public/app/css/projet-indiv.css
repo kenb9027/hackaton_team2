@@ -59,13 +59,13 @@
 #line-img-txt {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  margin-bottom: 80px;
 }
 
 #img-lg-box {
   position: relative;
   width: 80%;
   padding: 10px;
-  margin-bottom: 80px;
 
 }
 
@@ -175,13 +175,15 @@
     display: block;
   }
   #img-lg-box {
+    position: relative;
     width: 100%;
     padding: 10px;
   }
 
   #img-lg {
-    max-width: 100%;
+    width: fit-content;
   }
+
 
   #title-desc {
     font-size: 16px;
