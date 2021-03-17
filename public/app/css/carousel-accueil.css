@@ -1,0 +1,23 @@
+.carousel-caption {
+    position: absolute;
+    right: 0%;
+    top: 23%;
+    left: 22%;
+    z-index: -10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align:left;
+    text-shadow: 0 1px 2px rgb(0 0 0 / 60%);
+}
+.campus{
+    font-family:var(--font-montserrat) ;
+    font-weight:bolder
+}
+@media screen and (max-width: 600px){
+    .carousel-caption {
+        top: -20%;
+        left: 12%;
+        
+    }
+}
