@@ -13,7 +13,9 @@ dropDowns.forEach((dd) => {
   const ddc = dd.querySelector(".dropdown-content");
 
   dd.addEventListener("click", (e) => {
+
     e.preventDefault() ;
     ddc.classList.toggle("clickOnDropdown");
   })
 })
+

@@ -1,0 +1,152 @@
+#top-img-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  z-index: -1;
+  height: 582px;
+  width: 100%;
+  background: url(../img/pic-designer-web.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#filter-box {
+  height: 582px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+#title-img-box {
+  position: relative;
+  top: 50%;
+  left: 15%;
+  width: 45%;
+  margin: 0;
+  font-family: var(--font-montserrat);
+  color: var(--color-white);
+  font-weight: 600;
+  font-size: 50px;
+}
+#main-box {
+    position: relative;
+  
+    margin-top: 550px;
+    margin-bottom: 160px;
+    width: 80%;
+    padding: 0 10%;
+  }
+
+  .main-title , .main-text{
+    font-family: var(--font-lato);
+  }
+  .main-title{
+      position: relative;
+      padding-left: 2%;
+    color: var(--color-black);
+      font-size: 20px;
+  }
+  .main-text{
+    color: var(--color-grey);
+      font-size: 16px;
+  }
+
+  #title-under-1 {
+    position: absolute;
+    top: 15px;
+    left: 1%;
+    background-color: var(--color-green);
+    opacity: 0.5;
+    width: 96px;
+  
+    height: 10px;
+  }
+  #title-under-2 {
+    position: absolute;
+    top: 16px;
+    left:1%;
+    background-color: var(--color-green);
+    opacity: 0.5;
+    width: 145px;
+  
+    height: 10px;
+  }
+  
+  #title-under-3 {
+    position: absolute;
+    top: 16px;
+    left: 1%;
+    background-color: var(--color-green);
+    opacity: 0.5;
+    width: 356px;
+  
+    height: 10px;
+  }
+
+
+@media screen and (max-width: 768px) {
+  #top-img-box {
+    height: 350px;
+  }
+  #filter-box {
+    height: 350px;
+  }
+  #title-img-box {
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  #main-box {
+    position: relative;
+    margin-top: 350px;
+  }
+  .main-part-box{
+      position: relative;
+  }
+
+
+  #title-under-1 {
+    position: absolute;
+    top: 16px;
+    left: 1%;
+    background-color: var(--color-green);
+    opacity: 0.5;
+    width: 95px;
+  
+    height: 10px;
+  }
+  
+  #title-under-2 {
+    position: absolute;
+    top: 16px;
+    left:1%;
+    background-color: var(--color-green);
+    opacity: 0.5;
+    width: 145px;
+  
+    height: 10px;
+  }
+  
+  #title-under-3 {
+    position: absolute;
+    top: 16px;
+    left: 1%;
+    background-color: var(--color-green);
+    opacity: 0.5;
+    width: 354px;
+  
+    height: 10px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+
+    #title-under-3 {
+        position: absolute;
+        top: 16px;
+        left: 1%;
+        background-color: var(--color-green);
+        opacity: 0.5;
+        width: 266px;
+      
+        height: 10px;
+      }
+  }
