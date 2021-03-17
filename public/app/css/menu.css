@@ -187,6 +187,7 @@ body{
     top: 100%;
     transition: 0.4s;
     width: 100%;
+    z-index: 20;
   }
   .dropdown-content{
     top:0;

@@ -62,6 +62,7 @@
 }
 
 #img-lg-box {
+  position: relative;
   width: 80%;
   padding: 10px;
   margin-bottom: 80px;
@@ -70,6 +71,12 @@
 
 #img-lg {
   max-width: 100%;
+}
+.pixel-svg{
+  position: absolute;
+  top: 0px;
+  left: 100px;
+
 }
 
 #desc-box {
