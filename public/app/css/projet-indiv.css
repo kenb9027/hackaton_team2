@@ -59,13 +59,13 @@
 #line-img-txt {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  margin-bottom: 80px;
 }
 
 #img-lg-box {
   position: relative;
   width: 80%;
   padding: 10px;
-  margin-bottom: 80px;
 
 }
 
