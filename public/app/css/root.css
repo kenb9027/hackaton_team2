@@ -5,8 +5,10 @@
     --color-blue : #004f73 ;
     --color-dark-blue : #122940 ;
     --color-grey : #6f6f6e ;
-    --color-white: white ;
-    --color-black: black ;
+
+    --color-white: #fff;
+    --color-black: #000;
+
 
     --font-montserrat: 'Montserrat', sans-serif;
     --font-lato: 'Lato', sans-serif;
