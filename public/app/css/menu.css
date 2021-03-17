@@ -2,7 +2,7 @@ body{
   overflow-x: hidden;
 }
 #header-menu {
-  position: sticky;
+  position: relative;
 
 
   display: flex;
@@ -56,6 +56,12 @@ body{
   
   cursor: pointer;
 }
+.dropdown-contact {
+  position: relative;
+  display: inline-block;
+  
+  cursor: pointer;
+}
 .menu-item{
   padding: 10px;
  
@@ -79,6 +85,9 @@ body{
 .dropdown:hover .dropdown-content {
   top: 110%;
 }
+.clickOnDropdown {
+  top: 110%;
+}
 
 .menu-link {
   font-family: var(--font-montserrat);
@@ -90,6 +99,7 @@ body{
 .menu-link:hover{
   color: var(--color-blue)
 }
+
 .nav-link {
   margin: 10px auto;
   font-family: var(--font-montserrat);
@@ -184,6 +194,10 @@ body{
   }
   .dropdown:hover .dropdown-content{
     left: 0;
+  }
+  .clickOnDropdown{
+    left: 0;
+    top: 100%;
   }
   #menu-list {
     
