@@ -114,6 +114,8 @@
   color: var(--color-black);
   text-align: center;
   font-size: 20px;
+  margin-top: 150px;
+  margin-bottom: 63px;
 }
 #slide-title-under-1 {
   position: absolute;
@@ -124,6 +126,10 @@
   width: 328px;
   height: 10px;
   transform: translate(-50%);
+}
+
+.footer-container{
+  margin-top:  200px;
 }
 
 @media screen and (max-width: 1000px) {
