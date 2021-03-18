@@ -6,7 +6,9 @@
   position: relative;
   font-family: var(--font-lato);
   font-size: 30px;
-  margin-left: 5px;
+  margin-left: 10%;
+  margin-top: 55px;
+  margin-bottom: 90px;
 }
 #title-under-1 {
   position: absolute;
@@ -24,6 +26,7 @@
   grid-template-columns: 1fr 1fr;
   text-align: center;
   gap: 20px;
+  margin-bottom: 190px;
 }
 
 #img-accueil-1 {
@@ -32,6 +35,7 @@
   height: 310px;
   width: 347px;
   margin: 0 auto;
+  position: relative;
 }
 #img-accueil-2 {
   background: url(../img/carre-presentation-promos/ordi/pic-designer-web.jpg)
@@ -39,6 +43,7 @@
   height: 310px;
   width: 347px;
   margin: 0 auto;
+  position: relative;
 }
 #img-accueil-3 {
   background: url(../img/carre-presentation-promos/ordi/pic-chef-de-projet.jpg)
@@ -46,6 +51,7 @@
   height: 310px;
   width: 347px;
   margin: 0 auto;
+  position: relative;
 }
 #img-accueil-4 {
   background: url(../img/carre-presentation-promos/ordi/pic-graphiste-digital-min.jpg)
@@ -53,6 +59,61 @@
   height: 310px;
   width: 347px;
   margin: 0 auto;
+  position: relative;
+}
+
+.hover-txt {
+  position: absolute;
+  height: 310px;
+  width: 347px;
+  top: 0px;
+  background: #004f73b4;
+  opacity: 0;
+  transition: 0.2s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hover-txt:hover {
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hover-txt p {
+  text-align: center;
+  align-items: center;
+  font-family: "montserrat";
+  color: white;
+}
+
+.hover-txt-2 {
+  position: absolute;
+  height: 310px;
+  width: 347px;
+  top: 0px;
+  background: #004f73b4;
+  opacity: 0;
+  transition: 0.2s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hover-txt-2:hover {
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hover-txt-2 p {
+  text-align: center;
+  align-items: center;
+  font-family: "montserrat";
+  color: white;
 }
 
 .pixel {
@@ -77,6 +138,7 @@
   font-family: var(--font-lato);
   font-size: 16px;
   color: var(--color-grey);
+  margin: 0 20%;
 }
 
 @media screen and (max-width: 930px) {
@@ -92,11 +154,43 @@
     width: 255px;
     height: 228px;
   }
+
+  .hover-txt {
+    position: absolute;
+    height: 228px;
+    width: 255px;
+    top: 0px;
+    background: #004f73b4;
+    opacity: 0;
+    transition: 0.2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hover-txt-2 {
+    position: absolute;
+    height: 228px;
+    width: 255px;
+    top: 0px;
+    background: #004f73b4;
+    opacity: 0;
+    transition: 0.2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .item-text {
+    margin: 0 10%;
+  }
 }
 
 @media screen and (max-width: 768px) {
   #main-title {
     font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 38px;
   }
   #title-under-1 {
     position: absolute;
@@ -124,6 +218,7 @@
 
   #main-grid {
     grid-template-columns: 1fr;
+    margin-bottom: 100px;
   }
   .main-grid-item {
     width: 100%;
@@ -135,5 +230,13 @@
   }
   .item-text {
     font-size: 14px;
+    margin: 0 10%;
+  }
+
+  .hover-txt {
+    display: none;
+  }
+  .hover-txt-2 {
+    display: none;
   }
 }
