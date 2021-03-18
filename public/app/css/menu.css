@@ -1,5 +1,6 @@
 body{
-  overflow-x: hidden;
+  overflow-x: hidden  !important;
+
 }
 #header-menu {
   position: relative;
@@ -191,7 +192,7 @@ body{
   }
   .dropdown-content{
     top:0;
-    left: 500%;
+    left: -500%;
   }
   .dropdown:hover .dropdown-content{
     left: 0;
