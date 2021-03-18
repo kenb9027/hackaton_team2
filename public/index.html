@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="app/css/root.css">
+  <link rel="stylesheet" href="app/css/normalize.css">
+  <link rel="stylesheet" href="app/css/menu.css">
+  <link rel="stylesheet" href="app/css/carousel-accueil.css">
+  <link rel="stylesheet" href="app/css/grid-accueil.css">
+  <link rel="stylesheet" href="app/css/footer.css">
+
+  <title>Acceuil</title>
+</head>
+
+<body>
+  <header>
+    <div id="header-menu">
+      <div class="burger-container" onclick="moveBurger(this)">
+        <div class="burger-bar1"></div>
+        <div class="burger-bar2"></div>
+        <div class="burger-bar3"></div>
+      </div>
+
+      <div id="logo-box">
+        <img src="./app/img/logo blanc.webp" alt="logo Campus du Lac" id="header-logo-desktop">
+        <img src="./app/img/logo blanc.webp" alt="logo Campus du Lac blanc" id="header-logo-mobile">
+      </div>
+
+      <nav id="menu">
+        <ul id="menu-list">
+          <li class="menu-item">
+              <div class="dropdown">
+                  <span class="menu-link">Developpeur Web</span>
+                  <div class="dropdown-content">
+                      <a class="nav-link" href="./presentation-promo-dev-web.html">Présentation</a>
+                      <a class="nav-link" href="./nosprojets-dev.html">Gallerie</a>
+                  </div>
+              </div>
+          </li>
+          <li class="menu-item">
+              <div class="dropdown">
+                  <span class="menu-link">Designer Web</span>
+                  <div class="dropdown-content">
+                      <a class="nav-link" href="./presentation-promo-designer.html">Présentation</a>
+                      <a class="nav-link" href="./nosprojets-design.html">Gallerie</a>
+                  </div>
+              </div>
+          </li>
+          <li class="menu-item">
+              <div class="dropdown">
+                  <span class="menu-link">Chef de Projet</span>
+                  <div class="dropdown-content">
+                      <a class="nav-link" href="./presentation-promo-chef-projet.html">Présentation</a>
+                      <a class="nav-link" href="./nosprojets-chef.html">Gallerie</a>
+                  </div>
+              </div>
+          </li>
+          <li class="menu-item">
+              <div class="dropdown">
+                  <span class="menu-link">Graphiste multicanal</span>
+                  <div class="dropdown-content">
+                      <a class="nav-link" href="./presentation-promo-graphist.html">Présentation</a>
+                      <a class="nav-link" href="./nosprojets-chef.html">Gallerie</a>
+                  </div>
+              </div>
+          </li>
+          <li class="menu-item">
+              <div class="dropdown">
+                  <a class="menu-link" href="./contact.html">Contact</a>
+
+              </div>
+          </li>
+      </ul>
+
+      </nav>
+    </div>
+
+    <!--//////////////////// Crousel///////////////////////////-->
+    <div id="myCarousel" class="carousel slide " data-ride="carousel" data-pause="false" data-interval="40000">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="/public/app/img/1.jpg" alt="Los Angeles" style="width:100%;">
+          <div class="carousel-caption">
+            <div class="campus">
+              <h2>CAMPUS DU LAC</h2>
+              <h3>Sections design digital</h3>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="/public/app/img/2.jpg" alt="Chicago" style="width:100%;">
+          <div class="carousel-caption">
+            <div class="campus">
+              <h2>CAMPUS DU LAC</h2>
+              <h3>Sections design digital</h3>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="/public/app/img/3.jpg" alt="New york" style="width:100%;">
+          <div class="carousel-caption">
+            <div class="campus">
+              <h2>CAMPUS DU LAC</h2>
+              <h3>Sections design digital</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main id="main-box">
+
+    <h2 id="main-title">Nos Promos<div id="title-under-1"></div>
+    </h2>
+
+    <div id="main-grid">
+      <div class="main-grid-item">
+        <img class="item-img" src="./app/img/pic-web-dev.jpg" alt="illustration de la section">
+        <h4 class="item-title">Dev Web</h4>
+        <p class="item-text">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus libero, modi ipsa aliquid vel neque at
+          fuga voluptatibus tempora atque!
+        </p>
+      </div>
+      <div class="main-grid-item">
+        <img class="item-img" src="./app/img/pic-designer-web.jpg" alt="illustration de la section">
+        <h4 class="item-title">Designer Web</h4>
+        <p class="item-text">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus libero, modi ipsa aliquid vel neque at
+          fuga voluptatibus tempora atque!
+        </p>
+      </div>
+      <div class="main-grid-item">
+        <img class="item-img" src="./app/img/pic-chef-de-projet.jpg" alt="illustration de la section">
+        <h4 class="item-title">Chef de projet Web</h4>
+        <p class="item-text">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus libero, modi ipsa aliquid vel neque at
+          fuga voluptatibus tempora atque!
+        </p>
+      </div>
+      <div class="main-grid-item">
+        <img class="item-img" src="./app/img/pic-graphiste-digital.jpg" alt="illustration de la section">
+        <h4 class="item-title">Graphiste multicanal</h4>
+        <p class="item-text">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus libero, modi ipsa aliquid vel neque at
+          fuga voluptatibus tempora atque!
+        </p>
+      </div>
+    </div>
+
+
+
+  </main>
+  <footer>
+    <div class="footer-container">
+      <div class="grid-footer">
+        <div class="grid-foot-1">
+          <img src="./app/img/logo blanc.webp" alt="logo-campus">
+          <p>Campus du Lac tout droits réservés, 2021</p>
+        </div>
+        <div class="grid-foot-2">
+          <ul>
+            <li><a href=""><img src="./app/img/facebook.png" alt="logo-facebook"></a></li>
+            <li><a href=""><img src="./app/img/twitter.png" alt="logo-twitter"></a></li>
+            <li><a href=""><img src="./app/img/instagram.png" alt="logo-instagram"></a></li>
+            <li><a href=""><img src="./app/img/linkedin.png" alt="logo-linkedin"></a></li>
+          </ul>
+          <div id="res-img">
+            <img src="./app/img/logo blanc.webp" alt="logo-campus">
+            <p>Campus du Lac tout droits réservés, 2021</p>
+          </div>
+        </div>
+        <div class="grid-foot-3">
+          <ul>
+            <li><a href="./mentions-legales.html">Mentions légales</a></li>
+            <li><a href="./confidentialité.html">Confidentialité</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+<script src="/public/app/js/menu.js"></script>
+
+</html>

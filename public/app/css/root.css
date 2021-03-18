@@ -1,14 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Montserrat:wght@600&display=swap');
+@font-face {
+    font-family: "montserrat";
+    src: url(../font/Montserrat/Montserrat-SemiBold.ttf);
+}
+@font-face {
+    font-family: "lato";
+    src: url(../font/lato/Lato-Regular.ttf);
+}
 
 :root {
     --color-green : #009aa3 ;
     --color-blue : #004f73 ;
     --color-dark-blue : #122940 ;
     --color-grey : #6f6f6e ;
-    --color-white: white ;
-    --color-black: black ;
+    --color-white :white;
+    --color-black: black;
 
-    --font-montserrat: 'Montserrat', sans-serif;
-    --font-lato: 'Lato', sans-serif;
+
+    --color-white: #fff;
+    --color-black: #000;
+
+
+    --font-montserrat: 'montserrat', sans-serif;
+    --font-lato: 'lato', sans-serif;
 
 }
