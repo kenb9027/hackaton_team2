@@ -1,0 +1,15 @@
+@media screen and (min-width : 415px){
+    .mobile-view
+    {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width :416px){
+    #desk-view{
+        display: none;
+    }
+}
+
+

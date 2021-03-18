@@ -21,107 +21,118 @@
 
 <body>
   <header>
-    <div id="header-menu">
-      <div class="burger-container" onclick="moveBurger(this)">
-        <div class="burger-bar1"></div>
-        <div class="burger-bar2"></div>
-        <div class="burger-bar3"></div>
-      </div>
+      <div id="header-menu">
+        <div class="burger-container" onclick="moveBurger(this)">
+            <div class="burger-bar1"></div>
+            <div class="burger-bar2"></div>
+            <div class="burger-bar3"></div>
+        </div>
+ 
+        <div id="logo-box">
+            <img src="./app/img/logo blanc.webp" alt="logo Campus du Lac" id="header-logo-desktop">
+            <img src="./app/img/logo blanc.webp" alt="logo Campus du Lac blanc" id="header-logo-mobile">
+        </div>
+ 
+        <nav id="menu">
+               <ul id="menu-list">
+                <li class="menu-item">
+                    <div class="dropdown">
+                        <span class="menu-link">Developpeur Web</span>
+                        <div class="dropdown-content">
+                            <a class="nav-link" href="#">Présentation</a>
+                            <a class="nav-link" href="#">Gallerie</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="menu-item">
+                    <div class="dropdown">
+                        <span class="menu-link">Designer Web</span>
+                        <div class="dropdown-content">
+                            <a class="nav-link" href="#">Présentation</a>
+                            <a class="nav-link" href="#">Gallerie</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="menu-item">
+                    <div class="dropdown">
+                        <span class="menu-link">Chef de Projet</span>
+                        <div class="dropdown-content">
+                            <a class="nav-link" href="#">Présentation</a>
+                            <a class="nav-link" href="#">Gallerie</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="menu-item">
+                    <div class="dropdown">
+                        <span class="menu-link">Graphiste multicanal</span>
+                        <div class="dropdown-content">
+                            <a class="nav-link" href="#">Présentation</a>
+                            <a class="nav-link" href="#">Gallerie</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="menu-item">
+                    <div class="dropdown">
+                        <a class="menu-link" href="">Contact</a>
 
-      <div id="logo-box">
-        <img src="./app/img/logo blanc.webp" alt="logo Campus du Lac" id="header-logo-desktop">
-        <img src="./app/img/logo blanc.webp" alt="logo Campus du Lac blanc" id="header-logo-mobile">
-      </div>
-
-      <nav id="menu">
-        <ul id="menu-list">
-          <li class="menu-item">
-              <div class="dropdown">
-                  <span class="menu-link">Developpeur Web</span>
-                  <div class="dropdown-content">
-                      <a class="nav-link" href="./presentation-promo-dev-web.html">Présentation</a>
-                      <a class="nav-link" href="./nosprojets-dev.html">Gallerie</a>
-                  </div>
-              </div>
-          </li>
-          <li class="menu-item">
-              <div class="dropdown">
-                  <span class="menu-link">Designer Web</span>
-                  <div class="dropdown-content">
-                      <a class="nav-link" href="./presentation-promo-designer.html">Présentation</a>
-                      <a class="nav-link" href="./nosprojets-design.html">Gallerie</a>
-                  </div>
-              </div>
-          </li>
-          <li class="menu-item">
-              <div class="dropdown">
-                  <span class="menu-link">Chef de Projet</span>
-                  <div class="dropdown-content">
-                      <a class="nav-link" href="./presentation-promo-chef-projet.html">Présentation</a>
-                      <a class="nav-link" href="./nosprojets-chef.html">Gallerie</a>
-                  </div>
-              </div>
-          </li>
-          <li class="menu-item">
-              <div class="dropdown">
-                  <span class="menu-link">Graphiste multicanal</span>
-                  <div class="dropdown-content">
-                      <a class="nav-link" href="./presentation-promo-graphist.html">Présentation</a>
-                      <a class="nav-link" href="./nosprojets-chef.html">Gallerie</a>
-                  </div>
-              </div>
-          </li>
-          <li class="menu-item">
-              <div class="dropdown">
-                  <a class="menu-link" href="./contact.html">Contact</a>
-
-              </div>
-          </li>
-      </ul>
-
-      </nav>
-    </div>
-
+                    </div>
+                </li>
+            </ul>
+ 
+        </nav>
+     </div>
+    
     <!--//////////////////// Crousel///////////////////////////-->
-    <div id="myCarousel" class="carousel slide " data-ride="carousel" data-pause="false" data-interval="40000">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-      </ol>
-      <!-- Wrapper for slides -->
-      <div class="carousel-inner">
-        <div class="item active">
-          <img src="/public/app/img/1.jpg" alt="Los Angeles" style="width:100%;">
-          <div class="carousel-caption">
-            <div class="campus">
-              <h2>CAMPUS DU LAC</h2>
-              <h3>Sections design digital</h3>
+          <div id="myCarousel" class="carousel slide " data-ride="carousel" data-pause="false" data-interval ="4000">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+              <li data-target="#myCarousel" data-slide-to="3"></li>
+            </ol>
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" >
+              <div class="item active">
+                <img src="/public/app/img/carroussel/ordi/carroussel-header/chef-projet.jpg" alt="image-chef-projes" style="width:100%;">
+                <div class="carousel-caption">
+                  <div class="campus">
+                    <h2>CAMPUS DU LAC</h2>
+                    <h3>Bachelor Chef de projet en en web marketing et stratégie digitale</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <img src="/public/app/img/carroussel/ordi/carroussel-header/graphiste.jpg" alt="image-graphiste" style="width:100%;">
+                <div class="carousel-caption">
+                  <div class="campus">
+                    <h2>CAMPUS DU LAC</h2>
+                    <h3>Graphiste concepteur en communication multicanal</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <img src="/public/app/img/carroussel/ordi/carroussel-header/web-designer.jpg" alt="image-web-designer" style="width:100%;">
+                <div class="carousel-caption">
+                  <div class="campus">
+                    <h2>CAMPUS DU LAC</h2>
+                    <h3>Web designer</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <img src="/public/app/img/carroussel/ordi/carroussel-header/web-designer.jpg" alt="image-dwwm" style="width:100%;">
+                <div class="carousel-caption">
+                  <div class="campus">
+                    <h2>CAMPUS DU LAC</h2>
+                    <h3>Développeur web et web mobile</h3>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="item">
-          <img src="/public/app/img/2.jpg" alt="Chicago" style="width:100%;">
-          <div class="carousel-caption">
-            <div class="campus">
-              <h2>CAMPUS DU LAC</h2>
-              <h3>Sections design digital</h3>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <img src="/public/app/img/3.jpg" alt="New york" style="width:100%;">
-          <div class="carousel-caption">
-            <div class="campus">
-              <h2>CAMPUS DU LAC</h2>
-              <h3>Sections design digital</h3>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
+</header>
+  
   <main id="main-box">
 
     <h2 id="main-title">Nos Promos<div id="title-under-1"></div>
