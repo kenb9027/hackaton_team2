@@ -1,0 +1,62 @@
+#top-img-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+  
+    z-index: -1;
+    height: 582px;
+    width: 100%;
+    background: url(../img/page-contacts/contact-ordi.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #filter-box {
+    height: 582px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  #title-img-box {
+    position: relative;
+    top: 50%;
+    left: 15%;
+    width: 45%;
+    margin: 0;
+    font-family: var(--font-montserrat);
+    color: var(--color-white);
+    font-weight: 600;
+    font-size: 50px;
+  }
+  #main-box {
+      position: relative;
+    
+      margin-top: 550px;
+      margin-bottom: 160px;
+      width: 80%;
+      padding: 0 10%;
+    }
+  
+    #main-title , #main-text{
+      font-family: var(--font-lato);
+    }
+    #main-title{
+        position: relative;
+        padding-left: 2%;
+      color: var(--color-blue);
+        font-size: 40px;
+    }
+    #main-text{
+      color: var(--color-green);
+        font-size: 22px;
+        border-radius: 180px;
+        padding: 15px;
+
+        transition: 0.3s;
+    }
+    #main-text:link , #main-text:visited {
+        text-decoration: none;
+    }
+    #main-text:hover{
+        color: var(--color-white);
+        background-color: var(--color-green);
+    }
+ 
