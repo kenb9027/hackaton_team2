@@ -34,7 +34,7 @@ textarea {
   color: white;
   font-size: 50px;
   margin: 0;
-  margin-left: 400px;
+  margin-left: 21%;
 }
 
 /**********************************************************************
@@ -343,6 +343,10 @@ label {
   #submit {
     width: 70%;
     margin-bottom: 100px;
+  }
+  .bg h1 {
+    font-size: 30px;
+    margin-left: 13%;
   }
 }
 
