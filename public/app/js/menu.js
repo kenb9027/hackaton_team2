@@ -14,7 +14,7 @@ dropDowns.forEach((dd) => {
 
   dd.addEventListener("click", (e) => {
 
-    e.preventDefault() ;
+    // e.preventDefault() ;
     ddc.classList.toggle("clickOnDropdown");
   })
 })
