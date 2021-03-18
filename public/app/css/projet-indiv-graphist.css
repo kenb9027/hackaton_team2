@@ -1,6 +1,24 @@
 #top-img-box {
-
   background: url(../img/graphiste-multicanal/ordi/header/pic-projet-8.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+#img-lg-box {
+  position: relative;
+  width: 493px;
+  height: 440px;
+  /* padding: 10px; */
+  background: url(../img/graphiste-multicanal/ordi/grandes/pic-projet-8.jpg)
+    center/cover;
+  margin-right: 79px;
+}
+
+@media screen and (max-width: 768px) {
+  #img-lg-box {
+    position: relative;
+    width: 255px;
+    height: 228px;
+    /* padding: 10px; */
+  }
 }
