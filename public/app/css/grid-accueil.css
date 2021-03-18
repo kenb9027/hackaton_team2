@@ -25,25 +25,75 @@
   text-align: center;
   gap: 20px;
 }
+
+#img-accueil-1 {
+  background: url(../img/carre-presentation-promos/ordi/pic-web-dev.jpg)
+    center/cover;
+  height: 310px;
+  width: 347px;
+  margin: 0 auto;
+}
+#img-accueil-2 {
+  background: url(../img/carre-presentation-promos/ordi/pic-designer-web.jpg)
+    center/cover;
+  height: 310px;
+  width: 347px;
+  margin: 0 auto;
+}
+#img-accueil-3 {
+  background: url(../img/carre-presentation-promos/ordi/pic-chef-de-projet.jpg)
+    center/cover;
+  height: 310px;
+  width: 347px;
+  margin: 0 auto;
+}
+#img-accueil-4 {
+  background: url(../img/carre-presentation-promos/ordi/pic-graphiste-digital-min.jpg)
+    center/cover;
+  height: 310px;
+  width: 347px;
+  margin: 0 auto;
+}
+
+.pixel {
+  height: 310px;
+  width: 347px;
+}
+
 .main-grid-item {
-    width: 100%;
-    padding: 20px;
-  }
+  width: 100%;
+  padding: 20px;
+}
 .item-img {
   width: 85%;
 }
-.item-title{
-    font-family: var(--font-montserrat);
-    font-size: 16px;
-    font-weight: 600;
-    color: var(--color-grey)
+.item-title {
+  font-family: var(--font-montserrat);
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--color-grey);
 }
-.item-text{
-    font-family: var(--font-lato);
-    font-size: 16px;
-    color: var(--color-grey)
-   
+.item-text {
+  font-family: var(--font-lato);
+  font-size: 16px;
+  color: var(--color-grey);
 }
+
+@media screen and (max-width: 930px) {
+  #img-accueil-1,
+  #img-accueil-2,
+  #img-accueil-3,
+  #img-accueil-4 {
+    width: 255px;
+    height: 228px;
+  }
+
+  .pixel {
+    width: 255px;
+    height: 228px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   #main-title {
     font-size: 20px;
@@ -59,6 +109,19 @@
     height: 10px;
   }
 
+  /* #img-accueil-1,
+  #img-accueil-2,
+  #img-accueil-3,
+  #img-accueil-4 {
+    width: 255px;
+    height: 228px;
+  }
+
+  .pixel {
+    width: 255px;
+    height: 228px;
+  } */
+
   #main-grid {
     grid-template-columns: 1fr;
   }
@@ -66,12 +129,11 @@
     width: 100%;
     padding: 20px;
   }
-  .item-title{
+  .item-title {
     font-weight: bold;
     font-size: 14px;
-}
-.item-text{
+  }
+  .item-text {
     font-size: 14px;
-   
-}
+  }
 }
