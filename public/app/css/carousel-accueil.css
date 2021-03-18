@@ -8,11 +8,12 @@
     padding-bottom: 20px;
     color: rgb(255, 255, 255);
     text-align:left;
-    text-shadow: 0 1px 2px rgb(0 0 0 / 60%);
+    text-shadow: 2px 2px 3px rgb(0 0 0);
 }
 .campus{
     font-family:var(--font-montserrat) ;
     font-weight:bolder
+
 }
 @media screen and (max-width: 600px){
     .carousel-caption {
