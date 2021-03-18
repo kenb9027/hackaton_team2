@@ -1,6 +1,24 @@
 #top-img-box {
-
   background: url(../img/chef-de-projet/ordi/grandes/pic-projet-2-2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+#img-lg-box {
+  position: relative;
+  width: 493px;
+  height: 440px;
+  /* padding: 10px; */
+  background: url(../img/chef-de-projet/ordi/grandes/pic-projet-2-2.jpg)
+    center/cover;
+  margin-right: 79px;
+}
+
+@media screen and (max-width: 768px) {
+  #img-lg-box {
+    position: relative;
+    width: 255px;
+    height: 228px;
+    /* padding: 10px; */
+  }
 }
